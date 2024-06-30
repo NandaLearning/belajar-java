@@ -1,12 +1,13 @@
-public class UjiCoba {
+public class UjiCoba{
     public static void main(String[] args) {
-        final String nama = "nanda";
+        System.out.println("hello world");
+        nama();
 
-        System.out.println(nama);
-        
+        System.out.println(Test2.pacar("Ajeng"));
     }
 
 
-
-
+    public static void nama(){
+        System.out.println("nanda");
+    }
 }
